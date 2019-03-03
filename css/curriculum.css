@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #171E39;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  align-content: center;
+}
+img {
+  border-radius: 8px;
+  margin-left: 45px;
+}
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 350px;
+  padding-left: 20px;
+  background-color: #171E39;
+}
+#obj {
+  width: 300px;
+  border: 10px solid red;
+  margin-top: 10px;
+  margin-left: 25px;
+  height: 0px;
+}
+#cont{
+  width: 300px;
+  margin-top: 0px;
+  margin-left: 25px;
+  text-align: justify;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+}
+#cont2{
+  width: 800px;
+  margin-top: 0px;
+  margin-left: 25px;
+  text-align: justify;
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+}
+#title{
+  text-align: center;
+  color: white;
+  font-family: fantasy;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+#titulo2{
+  color:white;
+  font-family:courier-new;
+  text-align:center;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#subtitulo{
+  color:white;
+  font-family:courier-new;
+  text-align:center;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#obj2 {
+  width: 900px;
+  border: 10px solid red;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  height: 0px;
+}
+#title2{
+  text-align: left;
+  color: white;
+  font-family: fantasy;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
