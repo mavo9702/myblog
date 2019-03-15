@@ -1,0 +1,110 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 700px;}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #A52A2A;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;}
+}
+#texto{
+  color: white;
+  font-family: inherit;
+}
+#boton {
+  background-color: #47464A;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+#boton1{
+  background-color: #47464A;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+#boton2{
+  background-color: #47464A;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 115px;
+  cursor: pointer;
+}
+#numeros{
+  background-color: #9218B7;
+  border: solid 1px;
+  border-color: #602871;
+  color: white;
+  width: 95px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.red{
+  background-color: red;
+  border: solid 1px;
+  border-color: #602871;
+  color: white;
+  width: 95px;
+  height: 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.topics{
+  width: auto;
+  height: auto;
+  padding-left: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
