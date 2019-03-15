@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Criba de Eratóstenes</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/primos.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4 id="texto"><b>Criba de Eratóstenes</b></h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="index.html"><b>Inicio</b></a></li>
+      </ul><br>
+      <p id="texto">Indica un número mayor o igual a 20 y que sea menor o igual a 100:</p>
+      <div class="input-group">
+        <input type="number" class="form-control" value="20" id="numero" placeholder="Ingresa un número..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" id="botonn" onclick="myFunction()" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+      <button id="boton" onclick="multiplos2()" type="button">Múltiplos de 2</button>
+      <button id="boton" onclick="multiplos3()" type="button">Múltiplos de 3</button>
+      <button id="boton" onclick="multiplos4()" type="button">Múltiplos de 4</button>
+      <button id="boton" onclick="multiplos5()" type="button">Múltiplos de 5</button>
+      <button id="boton" onclick="multiplos6()" type="button">Múltiplos de 6</button>
+      <button id="boton" onclick="multiplos7()" type="button">Múltiplos de 7</button>
+      <button id="boton" onclick="multiplos8()" type="button">Múltiplos de 8</button>
+      <button id="boton" onclick="multiplos9()" type="button">Múltiplos de 9</button>
+      <button id="boton1" onclick="numprimos()" type="button">Números Primos</button>
+      <button id="boton2" onclick="limpiar()"><i class="fas fa-broom"></i></button>
+    </div>
+
+    <div class="col-sm-9">
+      <div id="topics">
+
+      </div>
+
+    </div>
+</div>
+
+</body>
+<script src="js/primos.js"></script>
+</html>
